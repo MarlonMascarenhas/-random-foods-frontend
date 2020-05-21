@@ -1,0 +1,55 @@
+.box-randomFood {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-randomFood .randomFood {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    align-items: center;
+}
+
+.box-randomFood .randomFood p{
+    font-size: 21px;
+}
+
+.btn-primary {
+    background-color:#007bff;
+    border-color: #007bff;
+    color: #fff; 
+}
+
+.imagemFood {
+    display: flex;
+    margin-top: 30px;
+}
+
+.imagemFood .imgFood{
+    flex-direction: column;
+}
+
+.imagemFood .imgFood img{
+    height: 318px;
+    width: 318px;
+    margin-bottom: 10px;
+}
+
+.imagemFood .textFood {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    width: 600px;
+    text-align: justify;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 19px;
+}
+.videoReceita .videoWrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
