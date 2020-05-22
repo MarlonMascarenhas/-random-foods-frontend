@@ -16,7 +16,6 @@ export default function HomePage() {
         setBusc(true)
         setFood(response.data[0]);
         setIngredientes(response.data[0].ingredientes.split(","))
-        console.log(ingredientes)
     }
 
     return (
